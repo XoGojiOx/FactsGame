@@ -288,23 +288,23 @@ if (request === 2020) {
   }
 }
 
-//   else if (request === "no") {
-//       let request = parseInt(
-//         prompt("What year between 2020 and 2024 would you like information on?")
-//       );
-//     } else if (request === "quit") {
-//       console.log(alert("Thanks for stopping by!"));
-//     } else {
-//       console.log(
-//         prompt("Please give a year between 2020 and 2024 or type QUIT")
-//       );
+  else if (request === "no") {
+      let request = parseInt(
+        prompt("What year between 2020 and 2024 would you like information on?")
+      );
+    } else if (request === "quit") {
+      console.log(alert("Thanks for stopping by!"));
+    } else {
+      console.log(
+        prompt("Please give a year between 2020 and 2024 or type QUIT")
+      );
 
-// } else if (request === 2021) {
-//   console.log(years[2021].fact1);
-// } else if (request === 2022) {
-//   console.log(years[2022].fact1);
-// } else if (request === 2023) {
-//   console.log(years[2023].fact1);
-// } else if (request === 2024) {
-//   console.log(years[2024].fact1);
-// }
+} else if (request === 2021) {
+  console.log(years[2021].fact1);
+} else if (request === 2022) {
+  console.log(years[2022].fact1);
+} else if (request === 2023) {
+  console.log(years[2023].fact1);
+} else if (request === 2024) {
+  console.log(years[2024].fact1);
+}
